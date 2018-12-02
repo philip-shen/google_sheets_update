@@ -27,12 +27,14 @@ Step 6. Update account01 content
 ![alt tag](https://i.imgur.com/FUxmRJO.png)
 
 sheet:mouse02
+
 Before:
 ![alt tag](https://i.imgur.com/kFNwy3r.png)
 After:
 ![alt tag](https://i.imgur.com/M7Q80LC.png)
 
 sheet:mouse03
+
 Before:
 ![alt tag](https://i.imgur.com/4b46WsE.png)
 After:
