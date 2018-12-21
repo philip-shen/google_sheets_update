@@ -35,7 +35,7 @@ class GoogleSS:
         # print("cell_list:", cell_list)
         self.gss_client_worksheet.update_cells(cell_list)
         
-    def update_GSpreadworksheet_datafolderCSV(self,row_count):
+    def update_GSpreadworksheet_logfolderdb(self,row_count):
         list_Gworksheet_rowvalue = self.gss_client_worksheet.row_values(row_count)
 
         while len(list_Gworksheet_rowvalue) > 0:
@@ -55,7 +55,8 @@ class GoogleSS:
 
             #           date  open  high   low  close  Stkidx CmpName
             #329 2018-10-16  44.1  44.9  43.7  43.95    6024     群益期
-            df_today_tradeinof = df_delduplicates_sortasc_tradeday[df_delduplicates_sortasc_tradeday['date'] == str_todaydate]                                                        
+            df_today_tradeinof = df_delduplicates_sortasc_tradeday[df_delduplicates_sortasc_tradeday['date'] == str_todaydate]
+            #print(df_today_tradeinof)                                                        
                                                                     
             ## Check 4 stock prices: 1.final, 2.open, 3.high, 4.low
             stock_price_final = df_today_tradeinof['close'].values.astype(str)[0]

@@ -40,7 +40,7 @@ for worksheet_spread in list_worksheet_spread:
     #inital row count value 2
     row_count = 2
 
-    localGoogleSS.update_GSpreadworksheet_datafolderCSV(row_count)
+    localGoogleSS.update_GSpreadworksheet_logfolderdb(row_count)
 
     duration = time.time() - start
     print('Update data of {} duration: {:.2f} seconds'.format(worksheet_spread,duration))                                                     
