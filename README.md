@@ -1,6 +1,7 @@
 # google_sheets_update_and_google_drive_download
 1. Crawl OpenHighLowClose daily trade data of specific companys based on files that download form Google drive
 2. And update daily trade data of holding companys on Google sheets
+
                             ＄＄＄＄＄＄投資從理財開始，理財作記帳著手 ＄＄＄＄＄＄
                                                                     此程式獻給在股海浮沈的你，從記帳開始著手
 
